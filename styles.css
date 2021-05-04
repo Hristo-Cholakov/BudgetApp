@@ -1,22 +1,60 @@
 body {
-    margin: 0%;
-    height: 100%;
-    overflow: hidden;
+    /* margin: 0%;
+    height: 100%; */
+    /* overflow: hidden; */
 }
+.main-background {
+    
+    background-color: #77acf1;
+}
+
 .bg-image {
-    background-size: contain;
+    /* background-size: contain;
     background-position: center;
     height: 100%;
     width: 100%;
-    filter: blur(20px);   
-     
-}
-h1 {
+    filter: blur(20px);         */
     
 }
 
 .total-income-expenses {
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    
+    
+}
+
+.total-budget {
     display: inline-block;
-    position: absolute;
+    
     left: 41%;;
 }
+
+.income-label {
+    background-color: green;
+    /* width: 10px;
+    height: 5px; */
+    display: block;
+    
+}
+
+.expenses-label {
+    background-color: red;
+    
+    display: block;
+}
+
+.plus-minus {
+    display: inline-block;
+}
+
+/* .main-buttons {
+    background-color: red;
+    display: block;
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    top: 50%;
+}*/
