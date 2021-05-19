@@ -17,6 +17,10 @@ body {
     
 }
 
+table, td {
+    border: 2px solid;
+}
+
 .total-income-expenses {
     height: 250px;
     width: 200px;

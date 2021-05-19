@@ -29,17 +29,17 @@
         </div>
 
             <div class="plus-minus">VALUE
-                <select class="sign-select">
+                <select id="sign-select">
                 
                     <option value="-">-</option>
                     <option value="+">+</option>
 
-                    <form action="/action_page.php">
+                    <form id="submit-form" action="/action_page.php">
                     
                         <input type="text" id="description" placeholder="Add description">
                         
                         <input type="number" id="value" placeholder="Amount">
-                        <input type="submit" value="Submit">
+                        <button type="button" onclick="formObject()">GO</button>
                       </form>
                     
                 </select>
@@ -47,7 +47,16 @@
                
    
             </div>
-    </div>
+
+        <!-- <div class="table">
+            <table id="myTable">
+                <tr>
+                  
+                </tr>
+              </table>
+              <br>
+        </div>
+    </div> -->
         
         <script src="app.js" async defer></script>
     </body>
